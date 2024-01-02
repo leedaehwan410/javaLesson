@@ -28,14 +28,16 @@ public class A17ForWhileExam {
         System.out.println("\t문자열에서 알파벳 o의 개수를 구하기");
         int count = 0;
 
-        for (int i = 0; i < message.length(); i++) {
+        for(int i=0; i<message.length(); i++){
             char temp = message.charAt(i);
-            if (temp == 'o') {
+            if(temp=='o'){
                 count++;
+
             }
+
         }
 
-        System.out.printf("문자 o의 개수는 = %d개이다", count);
+        System.out.print("문자 o의 개수는"+count+"개이다");
 
     }// main
 }// class

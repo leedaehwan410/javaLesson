@@ -16,21 +16,22 @@ public class A17ForWhileExam {
 
     int k = 0;
     while (k<message.length()) {
+       
+       char temp2= message.charAt(k);
+        System.out.println("k="+k+"글자="+temp2);
         k++;
-        System.out.println("");
-    }
+    }  
+    int count=0;
 
-        // // 위의 for문을 while문으로 바꿔서 출력
-    
-
-    
-
-
-
-            }
-
+    for(int i=0; i<message.length();i++) {
+        char temp=message.charAt(i);
+    if (temp=='o') {
+        count++;
+    }       
+        }
+        System.out.println("o의개수는"+count);
         
-
+        }
   
 
     }// main

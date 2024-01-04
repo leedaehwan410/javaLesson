@@ -38,13 +38,24 @@ public class B01MyClassMain {
         // my1.field3 배열의 크기 : 5
         // my1.field3 배열 요소 값: [0.0,0.0,0.0,0.0]
 
-    MyClass1 my2 = new MyClass1();              //새로운 myClass1 객체를 생성
-    System.out.println("my2 해시코드 (초기):"+ my2.hashCode());
+        MyClass1 my2 = new MyClass1();              //새로운 myClass1 객체를 생성 
+        System.out.println("my2 해시코드 (초기):"+ my2.hashCode());
         my2.field1="점심먹으러 갑시다.";
         my2.field2=12345;
         my2.field3=new double[]{34.12,23.99};
         System.out.println("my2 해시코드 값 변경 후:"+my2.hashCode());
-  }
+ 
+ 
+        MyClass2 my3= new MyClass2();
+
+        // MyClass1 err = new MyClass2(); 객체의 타입과 변수의 타입이 불일치
+        //private : 사적인,개인적인 MyClass2 클래스 외에는 사용할수 없는
+        // System.out.println("my3.field1 :"+my3.field1);  //String
+        // System.out.println("my3.field2 :"+my3.field2);  //int
+        // System.out.println("my3.field3 :"+my3.field3);  //double 배열
+ 
+ 
+    }
 
 
 

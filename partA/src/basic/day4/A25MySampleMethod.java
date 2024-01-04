@@ -13,25 +13,21 @@ public class A25MySampleMethod {
         System.out.println(sumMToN(2, 9));
         System.out.println(multiplyMToN(5,9 ));
         System.out.println(multiplyNof2(8));
-        // printGuguDan();
+        printGuguDan();
 
         int result= addMToN(2,5);
+
+        
 
         boolean isOK = checkJumsu(200);
         System.out.println(isOK);
         System.out.println(addMToN(5, 8));
 
     }
-     
-     
-    
-   
-     
 
     private static boolean checkJumsu(int i) {
         return i>0 && i<=100;
     }
-
 
     private static int addMToN(int i, int j) {
         int sum=0;
@@ -40,24 +36,18 @@ public class A25MySampleMethod {
         }
         return sum;
     }
-
-
-
-
-
-
     //1) 1부터 정수 n까지 더하기        
     public static int sumToN(int n) {
         int sum=0;
         for(int i=1; i<=n;i++){
-        sum+=i;
+        sum=sum+i;
         }
         return sum;
     }   //2) 1부터 정수 n까지 곱하기
     public static long multiply1ToN(int n) {
         long longresult=1;
         for(int i=1;i<=n; i++) {
-            longresult*=i;
+            longresult=longresult*i;
     }   return longresult;
 
     }   
@@ -82,7 +72,7 @@ public class A25MySampleMethod {
     public static long multiplyNof2(int n){
         long longresult=1;
         for(int i=1;i<=n;i++){
-            longresult*=2;
+            longresult=longresult*2;
     }   return longresult;
 }
 

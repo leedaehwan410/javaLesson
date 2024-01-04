@@ -33,26 +33,22 @@ System.out.println(str.length());
           
             if('A'<=temp && temp<='Z'){
                 upperCount++;
-            }else{
-            }
-        }
-
-         for(int i =0; i<str.length();i++){
-            char temp = str.charAt(i);
-          
-            if('a'<=temp && temp<='z'){
+            }else if('a'<=temp && temp<='z'){
                 lowerCount++;
-            }else{
-            }
-        }
-         for(int i =0; i<str.length();i++){
-            char temp = str.charAt(i);
-          
-            if('0'<=temp && temp<='9'){
+            }else if('0'<=temp && temp<='9'){
                 numberCount++;
             }else{
-            }
+                //키보드로 찍는 문자들은 다국어 문자가 아닌경우만 가능
+                symbolCount++;
+            }//만약 한글도 있을 수 있다면 else if(temp>=32&& temp<=47)|| (temp>=91&& temp<=96) || 
+            //(temp>='{'&& temp<='~'))
         }
+
+         
+        
+        
+            
+        
         symbolCount=(str.length()-(upperCount+lowerCount+numberCount));
         
         

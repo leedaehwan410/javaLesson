@@ -15,42 +15,5 @@ public class AddQuizMain {
    
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
-
-        AddQuiz first = new AddQuiz(0, 0, sc.nextInt(),true );
-
-        int userAnswer=0;
-
-        
-        int start=11; int end=99;
-        for(int i=0;i<10;i++){
-        int data1=(int)(Math.random()*(end-start+1))+start;
-        System.out.println("11~99 범위의 난수 : " + data1);
-        int data2=(int)(Math.random()*(end-start+1))+start;
-        System.out.println("11~99 범위의 난수 : " + data2);
-        quiz[i]= new AddQuiz(data1, data2, userAnswer, false)
-        
-
-     
-        System.out.println("덧셈 10문제 퀴즈를 시작합니다.");
-        System.out.println("1번."+first+"+"+first+"= ?");
-        System.out.println("답 입력하세요>>>");
-        userAnswer=sc.nextInt();
-       System.out.println("1번."+first+"+"+first+"= ?");
-        System.out.println("답 입력하세요>>>");
-        userAnswer=sc.nextInt();
-        System.out.println("3번");
-        System.out.println("1번."+first+"+"+first+"= ?");
-        userAnswer=sc.nextInt();
-        System.out.println(":::::: 채점 하고 있습니다. ::::::");
-        System.out.println("\t문제\t제출한답\t정답\t채점");
-        System.out.println("1번.");
-        System.out.println("2번.");
-        System.out.println("3번.");
-        System.out.println(":::맞은 갯수"+"입니다.");
-
-
-        
-    }
     }
 }

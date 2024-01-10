@@ -28,7 +28,7 @@ public class MyClass1 {
 	//static : 클래스의 고유한 특성. 클래스 이름으로 접근한다.
 	static int field5;  //값을 변경할수 있다.
 	
-	static final int FIELD4=999;
+	static final int num=999999;
 	//final : 변경할 수 없는 변수
 	//staitc final : 상수라고 합니다.
 	

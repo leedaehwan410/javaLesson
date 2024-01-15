@@ -1,7 +1,5 @@
+package collection.myapp;
 import java.util.List;
-
-import collection.myapp.JavaWord;
-import collection.myapp.JavaWordBook;
 
 public class JavaWordApp {
     
@@ -22,7 +20,7 @@ public class JavaWordApp {
         myBook.addWord(new JavaWord("binary", "2진수의", 3));
 
         //메모장 출력
-        myBook.wordAllprint();
+        myBook.print();
         //3. 단어 조회
         //1) 영어단어 입력하면 찾아주기
         String findText = "";
@@ -32,10 +30,12 @@ public class JavaWordApp {
 
         //2) List<javaWord> searchWordByLevel(int level) :  레벨로 조회하기
             List<JavaWord> list = myBook.searchWordByLevel(3);
-            myBook.wordListPrint(list);
+            JavaWordBook.wordListPrint(list);
 
         //4. 단어 삭제
-
+        System.out.println("삭제할 단어를 검색해주세요");
+        myBook.searchWord(findText);
+        myBook.removeWord(findText);
 
     }
 }

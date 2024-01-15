@@ -61,7 +61,7 @@ public class JavaWordApp_V2 {
         System.out.print("삭제할 단어를 영문으로 입력하세요. _");
         String find = System.console().readLine();
         boolean isFind=false;           //단어 존재 유무 확인 변수
-        for(int i=0;i<words.size();i++){
+        for(int i=0;i<words.size();i++){        // for(JavaWord w : words)
             if(words.get(i).getEnglish().equals(find)){
                 isFind=true;
                 System.out.println("인덱스 " + i + " 에서 단어를 찾았습니다.");
@@ -71,6 +71,8 @@ public class JavaWordApp_V2 {
                 else {
                     //단어 삭제.
                     words.remove(i); System.out.println("단어 삭제 완료!!");
+                    //삭제 후 다음 인덱스는 초기값보다 하나 작아져야 합니다.
+                    i--;
                 }            
             }   //단어 비교 if end
         }   //for end

@@ -24,8 +24,5 @@ public class D02CheckedExceptionTest {
            System.out.println("파일 생성에 오류가 발생했습니다.");
             System.out.println(e.getMessage()); //오류 원인
         }
-
-
-
     }
 }

@@ -1,4 +1,4 @@
-package io.javaword;
+package io.day13;
 
 import java.io.BufferedWriter;
 import java.io.File;

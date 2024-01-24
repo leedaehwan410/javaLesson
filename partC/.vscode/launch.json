@@ -1,0 +1,259 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProductApp",
+            "request": "launch",
+            "mainClass": "ProductApp",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "C01ListExample",
+            "request": "launch",
+            "mainClass": "collection.day10.C01ListExample",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "C02MemberList",
+            "request": "launch",
+            "mainClass": "collection.day10.C02MemberList",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "C03MemberListPrint",
+            "request": "launch",
+            "mainClass": "collection.day10.C03MemberListPrint",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "C04SetExample",
+            "request": "launch",
+            "mainClass": "collection.day10.C04SetExample",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "C05MapExample",
+            "request": "launch",
+            "mainClass": "collection.day10.C05MapExample",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "C06TodayMenuVote",
+            "request": "launch",
+            "mainClass": "collection.day10.C06TodayMenuVote",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "CustomerManageApp",
+            "request": "launch",
+            "mainClass": "collection.day11.CustomerManageApp",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaWordAppV1",
+            "request": "launch",
+            "mainClass": "collection.day11.JavaWordAppV1",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaWordApp_V2",
+            "request": "launch",
+            "mainClass": "collection.day11.JavaWordApp_V2",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaWordApp_V3",
+            "request": "launch",
+            "mainClass": "collection.day12.JavaWordApp_V3",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaWordApp",
+            "request": "launch",
+            "mainClass": "collection.myapp.JavaWordApp",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaWordAppX",
+            "request": "launch",
+            "mainClass": "collection.myappX.JavaWordAppX",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "InstanceTest",
+            "request": "launch",
+            "mainClass": "etc.day15.InstanceTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaDateTypeTest",
+            "request": "launch",
+            "mainClass": "etc.day15.JavaDateTypeTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "LocalDateTimeTest",
+            "request": "launch",
+            "mainClass": "etc.day15.LocalDateTimeTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D01TryCatchTest",
+            "request": "launch",
+            "mainClass": "io.day12.D01TryCatchTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D02CheckedExceptionTest",
+            "request": "launch",
+            "mainClass": "io.day12.D02CheckedExceptionTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D03StandardIOTest",
+            "request": "launch",
+            "mainClass": "io.day12.D03StandardIOTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D04KeyInputFileOut",
+            "request": "launch",
+            "mainClass": "io.day12.D04KeyInputFileOut",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D05FileInputSysOut",
+            "request": "launch",
+            "mainClass": "io.day12.D05FileInputSysOut",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D06FileCopyTest",
+            "request": "launch",
+            "mainClass": "io.day12.D06FileCopyTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D03StandardIOTestReview",
+            "request": "launch",
+            "mainClass": "io.day13.D03StandardIOTestReview",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D07ImageFileCopy",
+            "request": "launch",
+            "mainClass": "io.day13.D07ImageFileCopy",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D08FileReader",
+            "request": "launch",
+            "mainClass": "io.day13.D08FileReader",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D09StringSplit",
+            "request": "launch",
+            "mainClass": "io.day13.D09StringSplit",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D10FileWriter",
+            "request": "launch",
+            "mainClass": "io.day13.D10FileWriter",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "D11FileWriterThrows",
+            "request": "launch",
+            "mainClass": "io.day13.D11FileWriterThrows",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "ReviewProb",
+            "request": "launch",
+            "mainClass": "io.day13.ReviewProb",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "io.day14.Client",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "FileSelectTest",
+            "request": "launch",
+            "mainClass": "io.day14.FileSelectTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "io.day14.Server",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest",
+            "request": "launch",
+            "mainClass": "io.day14.ThreadTest",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "JavaWordApp_V4",
+            "request": "launch",
+            "mainClass": "io.javaword.JavaWordApp_V4",
+            "projectName": "partC_31d8a6b"
+        }
+    ]
+}

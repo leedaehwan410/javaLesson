@@ -11,7 +11,6 @@ public class AnimalCommunity {
 			animals[2] = new Rabbit();
 			animals[2].setColor("화이트");
 			animals[3] = new Puppy("말티즈","화이트");
-
 			//퀴즈 : 아래 객체를 배열 요소에 대입했습니다. 수정이 필요한 코드는???
 			animals[7] = new Animal() {
 				static final String TYPE="새";
@@ -23,8 +22,6 @@ public class AnimalCommunity {
 				public String toString() {
 					return TYPE+"[color=" + color + ", name=" + name + "]";
 				}
-
-
 			};
 			animals[7].setName("앵무새");
 			animals[7].setColor("빨강");
@@ -34,7 +31,6 @@ public class AnimalCommunity {
 				if(animals[i]!= null)		//배열요소에 참조되는 객체가 있는지(참조값이 있는지) 검사
 					animals[i].sound();		//null 일때 메소드 실행하면 오류
 			}	
-			
 	//	모모회원이 동물 보호소의 모든 동물들을 분양 받을 수 있는지 셀프 체크
 	//  동물 보호소 규정(비지니스 로직)
 	//			ㄴ 강아지는 15세이상, 고양이는 18세이상, 토끼는 13세 이상 그 외에는 20세 이상 분양받을 수 있습니다.		
@@ -64,9 +60,7 @@ public class AnimalCommunity {
 			sb.append(temp);
 		}
 		//생략가능 System.out.println(sb.toString());		//StringBuilder 타입 객체는 println 의 인자로 쓸때 toString 명시적 실행
-
-	}//main end
-	
+	}	//main end
 }
 
 

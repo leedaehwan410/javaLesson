@@ -38,7 +38,6 @@ public class C23AnonimousClass {
 // 람다식에서는 메소드의 인자 () -> {}   :  {}메소드 몸통에 추상메소드 구현부분 작성
         BeAble  beAble2 = () ->{        //자바 스크립트(웹)에서는 -> 화살표를 사용한다 
             return "무엇이든 합니다 ~";
-            
         };
         System.out.println(beAble.beAble());
 

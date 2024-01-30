@@ -1,8 +1,6 @@
 package koreait.test;
 
 public abstract class Product {
-
-    public static final String TYPE = "제품";
     
     protected int price;
     protected String prdName;
@@ -29,4 +27,7 @@ public abstract class Product {
     }
 
     
+
+
+
 }

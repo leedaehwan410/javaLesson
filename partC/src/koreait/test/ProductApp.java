@@ -25,12 +25,12 @@ public class ProductApp {
             }
         }
         //[4]
-        for(int i = 0;i<cart.length;i++){
-            if (cart[i] instanceof Bike) {
-                 
+        for(Product p : cart ){
+            if (p !=null && p instanceof Bike) {
+                 cart.ride();
             }
         }
-        //[5]
+        //[5] 
         if () {
             
         };

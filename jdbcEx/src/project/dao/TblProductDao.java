@@ -6,8 +6,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-
+import java.util.Map;
 
 import jdbc.day1.day1.OracleConnectionUtil;
 import project.vo.ProductVo;
@@ -55,7 +56,7 @@ try
     public List<ProductVo> selectByPname(String pname){
         List<ProductVo> list = new ArrayList<>();
         String sql="SELECT * FROM TBL_PRODUCT \r\n"+ 
-        "WHERE pname LIKE '%'|| ? || '%'";          //like는 유사 비교. %기호 사용
+        "WHERE pname LIKE '%'|| ? || '%'" ;          //like는 유사 비교. %기호 사용
     
     try 
     (Connection connection = getConnection();
@@ -80,4 +81,32 @@ try
         return list;
         }
 
+
+    public Map<String,Integer> getPriceTable(){
+        Map<String,Integer> map = new HashMap<>();
+        String sql="SELECT pcode,price from tbl_product";
+     
+                                    //like는 유사 비교. %기호 사용
+    
+    try 
+    (Connection connection = OracleConnectionUtil.getConnection();
+        PreparedStatement pstmt = connection.prepareStatement(sql)) {
+    
+            ResultSet rs = pstmt.executeQuery();
+       
+            while (rs.next()) {  //조회결과는 n행 가능성 예측
+              map.put(
+                 rs.getString(1),       //key
+                  rs.getInt(2));        //value
+            }
+                
+            
+    
+    }catch (SQLException e) {
+            System.out.println("getPriceTable 예외 발생" + e.getMessage());
+            e.printStackTrace();
+        }
+        return map;
+    }
+    
 }

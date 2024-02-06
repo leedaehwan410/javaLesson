@@ -8,6 +8,13 @@
             "type": "java",
             "name": "ProductApp",
             "request": "launch",
+            "mainClass": "koreait.test.ProductApp",
+            "projectName": "partC_31d8a6b"
+        },
+        {
+            "type": "java",
+            "name": "ProductApp",
+            "request": "launch",
             "mainClass": "ProductApp",
             "projectName": "partC_31d8a6b"
         },

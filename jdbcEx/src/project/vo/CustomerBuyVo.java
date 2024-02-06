@@ -11,7 +11,6 @@ import lombok.Getter;
 public class CustomerBuyVo {
     private int buy_idx;
     private String pcode;
-    private String customId;
     private String pname;
     private int price;
     private int quantity;
